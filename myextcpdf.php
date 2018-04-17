@@ -1,6 +1,6 @@
 <?php
 
-include app_path() . '/Utils/fpdf/formatedstring.php';
+include 'formatedstring.php';
 
 class exTCPDF extends \TCPDF {
     /* ------------------BORUI-SCRIPT-START------------------- */
