@@ -6,7 +6,7 @@
  * Date:    12-10-2017                                                *
  * Author:  Dan Machado                                               *
  * Edit: Borui                                                        *
- * Require  exFPDF v2.0                                              *
+ * Require  exTCPDF v2.0                                              *
  **********************************************************************/
 
 class easyTable{
