@@ -5,7 +5,7 @@
  * Version: 1.2                                                        *
  * Date:    04-10-2017                                                 *
  * Author:  Dan Machado                                                *
- * Use within exfpdf class                                             *
+ * Use within extcpdf class                                             *
  **********************************************************************/
  class formatedString{
     public $parced_str;
