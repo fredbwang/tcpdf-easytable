@@ -13,7 +13,7 @@ original your-font.php is like
 ```php
 // some config
 
-$cw = chr(0)=>278,chr(1)=>278,chr(2)=>278,chr(3)=>278,chr(4)=>278,chr(5)=>278, ...
+$cw = array(chr(0)=>278,chr(1)=>278,chr(2)=>278,chr(3)=>278,chr(4)=>278,chr(5)=>278, ...);
 
 ```
 modified:
@@ -21,7 +21,7 @@ modified:
 
 // some config
 
-$cw = 0=>278,1=>278,2=>278,3=>278,4=>278,5=>278, ...
+$cw = array(0=>278,1=>278,2=>278,3=>278,4=>278,5=>278, ...);
 
 ```
 
