@@ -29,4 +29,5 @@ If you want to use other font file of ttf format as your font, simply use
 ```php
 TCPDF_FONTS::addTTFfont('path/to/your/ttf/file', 'TrueTypeUnicode');
 ```
+then you can get corresponding your-font.php.
 see details at [TCPDF_FONT DOC](https://tcpdf.org/docs/srcdoc/TCPDF/class-TCPDF_FONTS/)
