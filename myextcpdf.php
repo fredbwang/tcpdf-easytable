@@ -3,38 +3,12 @@
 include 'formatedstring.php';
 
 class exTCPDF extends \TCPDF {
-    /* ------------------BORUI-SCRIPT-START------------------- */
-
     var $angle = 0;
 
     public function Header() {
-        if ($this->PageNo() != 1) {
-
-            $this->SetFont('helvetica', 'B', 8);
-
-            $this->Image(storage_path().'/app/assets/aerospec_icon_1.jpg', 10, 5, 24, 8, 'jpg', 'http://aerospec.us/');
-            // Move to the right
-            $this->setY(5);
-            $this->Cell(160);
-            // Title
-            $this->Cell(30, 10, 'Inspection Report', 0, 0, 'R');
-            // Line break
-            $this->Ln(15);
-            $this->SetFont('helvetica', 'B', 50);
-            $this->SetTextColor(217, 237, 247); // light blue
-            $this->RotatedText(65, 190, 'A E R O S P E C', 45);
-        }
     }
 
     public function Footer() {
-        if ($this->PageNo() != 1) {
-            // Go to 1.5 cm from bottom
-            $this->SetY(-15);
-            // Select Arial italic 8
-            $this->SetFont('helvetica', 'I', 6);
-            // Print centered page number
-            $this->Cell(0, 10, 'Page ' . ($this->PageNo() - 1), 0, 0, 'R');
-        }
     }
 
     public function RotatedText($x, $y, $txt, $angle) {
@@ -50,8 +24,6 @@ class exTCPDF extends \TCPDF {
         }
         return '';
     }
-
-    /* ------------------BORUI-SCRIPT-END------------------- */
 
     public function PageBreak() {
         return $this->PageBreakTrigger;
