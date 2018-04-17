@@ -5,6 +5,7 @@
  * Version: 2.0                                                       *
  * Date:    12-10-2017                                                *
  * Author:  Dan Machado                                               *
+ * Edit: Borui                                                        *
  * Require  exFPDF v2.0                                              *
  **********************************************************************/
 
